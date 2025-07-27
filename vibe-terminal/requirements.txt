@@ -1,0 +1,10 @@
+langchain
+langgraph
+openai
+python-dotenv
+typer[all] 
+rich
+SpeechRecognition
+pyttsx3
+pyaudio
+pynput 
