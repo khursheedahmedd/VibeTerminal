@@ -30,7 +30,7 @@ class AgentState(TypedDict):
 
 
 # --- System Prompts ---
-SYSTEM_PROMPT_CHAT = """You are Sadain, a helpful AI assistant. Answer the user's query clearly and concisely.
+SYSTEM_PROMPT_CHAT = """You are VibeTerminal, a helpful AI assistant. Answer the user's query clearly and concisely.
 
 If the user asks about the current context or directory structure, analyze the provided context and give a clear summary.
 The context includes:
@@ -361,7 +361,7 @@ def execute_parsed_commands(state: AgentState) -> AgentState:
                 # If no commands were found, create a default command
                 if not commands:
                     default_command = f"""cat > {requested_filename} << 'EOF'
-print("hello sadain")
+print("hello VibeTerminal")
 EOF"""
                     commands = [default_command]
                     state["extracted_commands"] = commands
@@ -488,7 +488,7 @@ def invoke_chat(state: AgentState) -> AgentState:
                 
                 # Create a default command if we have a filename
                 default_command = f"""cat > {requested_filename} << 'EOF'
-print("hello sadain")
+print("hello VibeTerminal")
 EOF"""
                 console.print(f"[dim]Created default command:\n{default_command}[/dim]")
                 state["extracted_commands"] = [default_command]

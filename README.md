@@ -41,15 +41,15 @@ This is an early version focusing on core functionality with Novita and LangGrap
     pip install -e .
     ```
 
-    This makes the `sadain` command available in your current environment.
+    This makes the `VibeTerminal` command available in your current environment.
 
 5.  **Set your Novita AI API Key:**
-    - Create a file named `.env` in the project root (`sadain_cli/.env`) OR in `~/.config/sadain/.env`
+    - Create a file named `.env` in the project root (`VibeTerminal_cli/.env`) OR in `~/.config/VibeTerminal/.env`
     - Add your API key to it:
       ```
       NOVITA_API_KEY="your_actual_novita_api_key"
       ```
-    - Alternatively, Sadain will prompt you for the key on first run if it's not found.
+    - Alternatively, VibeTerminal will prompt you for the key on first run if it's not found.
 
 ## Technology Stack
 
@@ -65,21 +65,21 @@ This is an early version focusing on core functionality with Novita and LangGrap
 **Chat Mode (default):**
 
 ```bash
-sadain "What is the capital of Sweden?"
-sadain "Explain the `tar` command with an example."
+VibeTerminal "What is the capital of Sweden?"
+VibeTerminal "Explain the `tar` command with an example."
 ```
 
 **Agent Mode:**
 
 ```bash
-sadain -a "List all python files in the current directory"
-sadain --agent "Create a new file called test.py"
+VibeTerminal -a "List all python files in the current directory"
+VibeTerminal --agent "Create a new file called test.py"
 ```
 
 **Voice Mode:**
 
 ```bash
-sadain --voice
+VibeTerminal --voice
 ```
 
 In voice mode:
@@ -93,25 +93,25 @@ In voice mode:
 
 ```bash
 # Voice mode with agent capabilities
-sadain --voice -a
+VibeTerminal --voice -a
 
 # Voice mode with verbose output
-sadain --voice -v
+VibeTerminal --voice -v
 
 # Voice mode with context disabled
-sadain --voice -c false
+VibeTerminal --voice -c false
 ```
 
 **Undo Feature:**
 
 ```bash
-sadain --undo
+VibeTerminal --undo
 ```
 
 **Command History:**
 
 ```bash
-sadain --history
+VibeTerminal --history
 ```
 
 ## Features

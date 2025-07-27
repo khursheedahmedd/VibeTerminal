@@ -27,7 +27,7 @@ from .command_history import CommandHistory
 warnings.filterwarnings('ignore', category=Warning, module='urllib3')
 
 app = typer.Typer(
-    name="sadain",
+    name="VibeTerminal",
     help="A terminal-based AI assistant powered by LangGraph and LLMs.",
     add_completion=False
 )
@@ -85,7 +85,7 @@ def main(
     undo: bool = typer.Option(False, "--undo", help="Undo the last executed command"),
     history: bool = typer.Option(False, "--history", help="Show command history")
 ) -> None:
-    """Main entry point for the Sadain CLI."""
+    """Main entry point for the VibeTerminal CLI."""
     try:
         # Initialize command history
         command_history = CommandHistory()

@@ -103,7 +103,7 @@ if __name__ == "__main__":
     # Test basic commands
     test_commands = [
         "ls -la",
-        "echo 'Hello Sadain'",
+        "echo 'Hello VibeTerminal'",
         "pwd"
     ]
     

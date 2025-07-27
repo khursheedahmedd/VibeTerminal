@@ -15,7 +15,7 @@ setup(
     ],
     entry_points={
         "console_scripts": [
-            "sadain = sadain_cli.__main__:entry_point",
+            "VibeTerminal = VibeTerminal_cli.__main__:entry_point",
         ],
     },
     author="Your Name",

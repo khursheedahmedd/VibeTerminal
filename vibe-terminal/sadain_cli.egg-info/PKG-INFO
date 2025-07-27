@@ -16,9 +16,9 @@ Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
 Requires-Python: >=3.9
 Description-Content-Type: text/markdown
 
-# Sadain CLI - AI Terminal Assistant
+# VibeTerminal CLI - AI Terminal Assistant
 
-Sadain is a terminal-based AI assistant designed to help you with shell commands, answer questions, and eventually act as an intelligent agent in your terminal.
+VibeTerminal is a terminal-based AI assistant designed to help you with shell commands, answer questions, and eventually act as an intelligent agent in your terminal.
 
 This is an early version focusing on core functionality with Groq and LangGraph.
 
@@ -50,20 +50,20 @@ This is an early version focusing on core functionality with Groq and LangGraph.
     ```bash
     pip install -e .
     ```
-    This makes the `sadain` command available in your current environment.
+    This makes the `VibeTerminal` command available in your current environment.
 
 5.  **Set your Groq API Key:**
-    - Create a file named `.env` in the project root (`sadain_cli/.env`) OR in `~/.config/sadain/.env`
+    - Create a file named `.env` in the project root (`VibeTerminal_cli/.env`) OR in `~/.config/VibeTerminal/.env`
     - Add your API key to it:
       ```
       GROQ_API_KEY="your_actual_groq_api_key"
       ```
-    - Alternatively, Sadain will prompt you for the key on first run if it's not found.
+    - Alternatively, VibeTerminal will prompt you for the key on first run if it's not found.
 
 ## Usage
 
 **Chat Mode (default):**
 ```bash
-sadain "What is the capital of Sweden?"
-sadain "Explain the `tar` command with an example."
+VibeTerminal "What is the capital of Sweden?"
+VibeTerminal "Explain the `tar` command with an example."
 

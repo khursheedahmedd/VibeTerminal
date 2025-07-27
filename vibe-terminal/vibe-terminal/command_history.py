@@ -5,9 +5,9 @@ from typing import Dict, List, Optional
 from pathlib import Path
 
 class CommandHistory:
-    """Manages command history for the Sadain CLI."""
+    """Manages command history for the VibeTerminal CLI."""
     
-    def __init__(self, history_file: str = ".sadain_history"):
+    def __init__(self, history_file: str = ".VibeTerminal_history"):
         """Initialize command history.
         
         Args:
