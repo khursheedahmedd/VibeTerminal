@@ -19,7 +19,7 @@ This is an early version focusing on core functionality with Novita and LangGrap
 
     ```bash
     https://github.com/khursheedahmedd/vibe-terminal.git
-    cd sadain-cli
+    cd vibeterminal
     ```
 
 2.  **Set up a virtual environment (recommended):**

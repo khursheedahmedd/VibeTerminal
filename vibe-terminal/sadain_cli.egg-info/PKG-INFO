@@ -1,8 +1,8 @@
 Metadata-Version: 2.1
-Name: sadain-cli
+Name: vibeterminal
 Version: 0.1.0
 Summary: A terminal-based AI assistant.
-Home-page: https://github.com/yourusername/sadain-cli
+Home-page: https://github.com/yourusername/vibeterminal
 Author: Your Name
 Author-email: your.email@example.com
 License: UNKNOWN
@@ -31,8 +31,8 @@ This is an early version focusing on core functionality with Groq and LangGraph.
 
 1.  **Clone the repository (if not installing from PyPI later):**
     ```bash
-    # git clone https://github.com/yourusername/sadain-cli.git
-    # cd sadain-cli
+    # git clone https://github.com/yourusername/vibeterminal.git
+    # cd vibeterminal
     ```
 
 2.  **Set up a virtual environment (recommended):**
